@@ -1,0 +1,7 @@
+{
+  "name": "node-201901_homework",
+  "version": "1.0.0",
+  "dependencies": {
+    "mime": "latest"
+  }
+}
