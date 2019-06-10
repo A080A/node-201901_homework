@@ -31,11 +31,12 @@ function serve(request,response){
             response.write(new Date().toString());
             counter ++;
             if(counter ==5){
+                clearInterval(int);
                 response.end();
             }
         })
     }else{
-        static(pathname,response)
+        static(pathname,response);
     }
 
 
